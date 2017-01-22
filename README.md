@@ -38,6 +38,6 @@ docker build -t kafka-manager .
 
 
 Run Image
-______________
+------------
 
 docker run -it -p 8080: 8080 -e "ZK_HOSTS=localhost:2181" kafka-manager
