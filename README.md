@@ -47,3 +47,10 @@ Add custom endpoints
 
 1. Update conf/routes with the package in which you have your route
 2. Add the route definition to the package mentioned.
+
+Running source project
+------------
+
+1. ./sbt clean dist
+2. Generates a zip file at target/universal/kafka-manager-1.3.2.1.zip
+
