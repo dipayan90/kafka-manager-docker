@@ -1,6 +1,16 @@
 Kafka Manager Docker
 =============
 
+Run Image
+------------
+
+docker run -it -p 8080:8080 -e "ZK_HOSTS=localhost:2181" dipayan90/kafka-manager
+
+Docker Image: https://hub.docker.com/r/dipayan90/kafka-manager/
+
+Description
+------------
+
 A tool for managing [Apache Kafka](http://kafka.apache.org). Containerized version of kafka manager ( https://github.com/yahoo/kafka-manager )
 
 It supports the following :
