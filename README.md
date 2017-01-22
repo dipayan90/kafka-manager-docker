@@ -41,3 +41,9 @@ Run Image
 ------------
 
 docker run -it -p 8080: 8080 -e "ZK_HOSTS=localhost:2181" kafka-manager
+
+Add custom endpoints
+------------
+
+1. Update conf/routes with the package in which you have your route
+2. Add the route definition to the package mentioned.
