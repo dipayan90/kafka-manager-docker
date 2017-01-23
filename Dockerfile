@@ -1,5 +1,7 @@
-FROM	williamyeh/java8
+FROM	ubuntu
 USER	root
+RUN	apt-get update
+RUN	apt-get install -y openjdk-8-jre
 COPY	kafka-manager-1.3.2.1.zip /home/default/kafka-manager-1.3.2.1.zip
 RUN	apt-get update && apt-get install unzip
 RUN	unzip /home/default/kafka-manager-1.3.2.1.zip
